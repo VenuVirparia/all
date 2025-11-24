@@ -21,6 +21,8 @@ docker run java-hello
 
 ---------------
 docker run -it --name c1 ubuntu /bin/bash
+docker ps
+docker ps -a
 ----------------------------------------------
 -------------------------------------------
 network
