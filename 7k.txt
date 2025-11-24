@@ -8,7 +8,10 @@ kafka/
 broker.id=2
 listeners=PLAINTEXT://:9094
 log.dirs=/tmp/kafka-logs2
-
+---------------------------------
+CMD 1 → ZooKeeper
+CMD 2 → Broker 1
+CMD 3 → Broker 2
 ===========================================
  SINGLE NODE – SINGLE BROKER (WINDOWS)
 ===========================================
