@@ -1,0 +1,88 @@
+kafka/
+  config/
+     server.properties          ← Broker 1 (original)
+     server2.properties         
+     
+# Broker 2 Configuration
+
+broker.id=2
+listeners=PLAINTEXT://:9094
+log.dirs=/tmp/kafka-logs2
+
+===========================================
+ SINGLE NODE – SINGLE BROKER (WINDOWS)
+===========================================
+
+# Start ZooKeeper
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+# Start Kafka Broker
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+# Create Topic
+.\bin\windows\kafka-topics.bat --create --topic test-topic --bootstrap-server localhost:9092
+
+# List Topics
+.\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
+
+# Describe Topic
+.\bin\windows\kafka-topics.bat --describe --topic test-topic --bootstrap-server localhost:9092
+
+# Producer (write events)
+.\bin\windows\kafka-console-producer.bat --topic test-topic --bootstrap-server localhost:9092
+
+# Consumer (read events)
+.\bin\windows\kafka-console-consumer.bat --topic test-topic --from-beginning --bootstrap-server localhost:9092
+
+
+
+===========================================
+ SINGLE NODE – MULTI-BROKER (WINDOWS)
+===========================================
+
+# Start ZooKeeper
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+# Start Broker 1
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+# Start Broker 2 (uses server2.properties)
+.\bin\windows\kafka-server-start.bat .\config\server2.properties
+
+# Create Multi-Broker Topic
+.\bin\windows\kafka-topics.bat --create --topic multi-topic --bootstrap-server localhost:9092 --replication-factor 2 --partitions 3
+
+# List Topics
+.\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
+
+# Describe Topic
+.\bin\windows\kafka-topics.bat --describe --topic multi-topic --bootstrap-server localhost:9092
+
+# Producer 1 → Broker on 9092
+.\bin\windows\kafka-console-producer.bat --topic multi-topic --bootstrap-server localhost:9092
+
+# Producer 2 → Broker on 9094
+.\bin\windows\kafka-console-producer.bat --topic multi-topic --bootstrap-server localhost:9094
+
+# Consumer 1
+.\bin\windows\kafka-console-consumer.bat --topic multi-topic --from-beginning --bootstrap-server localhost:9092
+
+# Consumer 2
+.\bin\windows\kafka-console-consumer.bat --topic multi-topic --from-beginning --bootstrap-server localhost:9094
+
+
+
+===========================================
+ DELETE COMMANDS (WINDOWS)
+===========================================
+
+# Delete Topics
+.\bin\windows\kafka-topics.bat --delete --topic test-topic --bootstrap-server localhost:9092
+.\bin\windows\kafka-topics.bat --delete --topic multi-topic --bootstrap-server localhost:9092
+
+# Stop Brokers
+.\bin\windows\kafka-server-stop.bat
+.\bin\windows\kafka-server-stop.bat .\config\server2.properties
+
+# Stop ZooKeeper
+.\bin\windows\zookeeper-server-stop.bat
