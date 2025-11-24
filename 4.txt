@@ -1,0 +1,36 @@
+docker login -u <your-username>
+------------------------------------
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello from Dockerized Java Application!");
+    }
+}
+=-------------------------------
+javac HelloWorld.java
+java HelloWorld
+
+---------------------
+FROM openjdk:17-alpine
+WORKDIR /app
+COPY HelloWorld.java .
+RUN javac HelloWorld.java
+CMD ["java", "HelloWorld"]
+--------------------------------
+docker build -t java-hello .
+docker run java-hello
+
+---------------
+docker run -it --name c1 ubuntu /bin/bash
+----------------------------------------------
+-------------------------------------------
+network
+
+docker network create mynetwork
+docker run -d --name c1 --network mynetwork image-name
+docker exec -it c1 /bin/bash
+
+apt update
+apt install -y iputils-ping
+
+docker inspect c1
+
