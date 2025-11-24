@@ -1,0 +1,108 @@
+npm init -y
+npm install express
+
+---------------------------------------
+FROM node:21
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN npm install
+COPY . .
+EXPOSE 3000
+CMD ["node", "app.js"]
+------------------------------------------------
+
+
+const express = require("express");
+const app = express();
+const port = 3000;
+
+app.get("/",(req, res)=>{
+    res.send("Hello World from Kubernetes");
+});
+
+app.listen(port,()=>{
+    console.log(`App listening at http://localhost:${port}`);
+})
+-------------------------------------------------
+namespace .yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: helloworld
+
+--------------------------
+deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-world-deployment
+  namespace: helloworld
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: node-app
+    spec:
+      containers:
+      - name: nodeapp-container
+        image: harshadprajapati/hello-world-nodeapp
+        ports:
+        - containerPort: 3000
+  selector:
+    matchLabels:
+      app: node-app
+----------------------------------------------------
+service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-world-service
+  namespace: helloworld
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      nodePort: 31000
+      targetPort: 3000
+  selector:
+    app: node-app
+--------------------------------------------------
+docker build -t node-docker-demo .
+docker run -d -p 3000:3000 --name nodeapp node-docker-demo
+curl http://localhost:3000
+docker stop nodeapp
+docker rm nodeapp
+
+docker tag node-docker-demo username/hello-world-nodeapp
+docker push username/hello-world-nodeapp
+
+
+docker context use default
+minikube start
+kubectl cluster-info
+kubectl get nodes
+
+kubectl apply -f namespace.yaml
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+
+kubectl run nodepod --image=username/node-docker-demo --port=3000
+kubectl create deployment nodedeploy --image=username/node-docker-demo
+
+kubectl expose deployment nodedeploy --type=NodePort --port=3000
+
+minikube service nodedeploy --url
+----------------------------------------------------------------------
+----------------------------------------------------------------
+kubectl get pods
+kubectl get deployments
+kubectl get svc
+kubectl get all
+kubectl get nodes
+
+kubectl delete pod <name>
+kubectl delete deployment <name>
+kubectl delete svc <name>
+kubectl delete all --all
+
