@@ -16,6 +16,10 @@ COPY HelloWorld.java .
 RUN javac HelloWorld.java
 CMD ["java", "HelloWorld"]
 --------------------------------
+FROM tomcat:latest 
+ADD ./webapp /usr/local/tomcat/webapps/webapp 
+CMD ["catalina.sh","run"] 
+----------------------------------
 docker build -t java-hello .
 docker run java-hello
 
