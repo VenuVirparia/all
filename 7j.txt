@@ -1,0 +1,53 @@
+docker pull jenkins/jenkins:jdk21
+docker images
+
+-> check on browser: localhost:8080
+-> add credentials and follow next steps
+-> configure instance: http://localhost:8080/
+-> reset password
+-> create freestyle project
+-> run locally: docker run -p 8080:8080 --name MyJenkins -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins
+
+docker stop <name/id>
+docker start <name/id>
+docker volume
+docker volume ls
+docker inspect MyJenkins
+
+
+-> on browser: in jenkins, Build now
+CLI: cd /
+ls
+
+------------------------------------------------
+-> create job pipeline 
+-> define pipeline script
+
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building...'
+                sh 'echo Hello from Build Stage'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                echo 'Testing...'
+                sh 'echo Hello from Test Stage'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo 'Deploying...'
+                sh 'echo Hello from Deploy Stage'
+            }
+        }
+    }
+}
+
+-> build and run
