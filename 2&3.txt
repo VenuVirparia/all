@@ -17,6 +17,8 @@ git config --global user.email "you@example.com"
 
 # --- HTTP REMOTE SETUP ---
 git remote add origin https://github.com/username/repository.git
+git remote -v
+
 git push -u origin main
 git pull origin main
 
