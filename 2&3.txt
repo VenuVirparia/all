@@ -6,9 +6,12 @@ git branch <branch-name>
 git branch
 git checkout <branch-name>
 git merge <branch-name>
+git diff
 git log
 git log --oneline
 
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
 
 
 
