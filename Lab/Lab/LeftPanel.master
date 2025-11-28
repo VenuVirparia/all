@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" 
+    CodeBehind="LeftPanel.master.cs" Inherits="Lab.LeftPanel" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <table style="width: 100%;">
+        <tr>
+            <!-- Left Panel -->
+            <td style="width: 30%; background-color: #f0f0f0; vertical-align: top; padding: 10px;">
+                <asp:HyperLink ID="lnkDepartments" runat="server" 
+                    NavigateUrl="~/Default.aspx" 
+                    Font-Bold="true" Font-Size="Large" ForeColor="Black" 
+                    Text="Departments">
+                </asp:HyperLink>
+                <br /><br />
+                <asp:BulletedList ID="blDepartments" runat="server" DisplayMode="HyperLink">
+                    <asp:ListItem Text="Information Technology" Value="About.aspx?dept=Information Technology"></asp:ListItem>
+                    <asp:ListItem Text="Computer Engineering" Value="About.aspx?dept=Computer Engineering"></asp:ListItem>
+                    <asp:ListItem Text="Electronics & Communication" Value="About.aspx?dept=Electronics & Communication"></asp:ListItem>
+                    <asp:ListItem Text="Chemical Engineering" Value="About.aspx?dept=Chemical Engineering"></asp:ListItem>
+                    <asp:ListItem Text="Mechanical Engineering" Value="About.aspx?dept=Mechanical Engineering"></asp:ListItem>
+                    <asp:ListItem Text="Civil Engineering" Value="About.aspx?dept=Civil Engineering"></asp:ListItem>
+                </asp:BulletedList>
+            </td>
+
+            <!-- Right Panel (Dynamic Content) -->
+            <td style="width: 70%; padding: 10px; vertical-align: top;">
+                <asp:ContentPlaceHolder ID="RightContent" runat="server"></asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+</asp:Content>

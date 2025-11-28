@@ -1,0 +1,7 @@
+C:\Users\venup\source\repos\Lab\Lab\bin\Lab.dll.config
+C:\Users\venup\source\repos\Lab\Lab\bin\Lab.dll
+C:\Users\venup\source\repos\Lab\Lab\bin\Lab.pdb
+C:\Users\venup\source\repos\Lab\Lab\obj\Debug\Lab.csproj.AssemblyReference.cache
+C:\Users\venup\source\repos\Lab\Lab\obj\Debug\Lab.csproj.CoreCompileInputs.cache
+C:\Users\venup\source\repos\Lab\Lab\obj\Debug\Lab.dll
+C:\Users\venup\source\repos\Lab\Lab\obj\Debug\Lab.pdb

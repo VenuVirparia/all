@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Lab.Site" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Lab Master Page Example</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Header -->
+        <div style="background-color:lightblue; padding:10px; text-align:center;">
+            <h2>Dharmsinh Desai University</h2>
+        </div>
+
+        <!-- Main Content -->
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+
+        <!-- Footer -->
+        <div style="background-color:lightgray; padding:10px; text-align:center;">
+            <p>&copy; 2025 DDU </p>
+        </div>
+    </form>
+</body>
+</html>

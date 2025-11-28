@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\venup\\source\\repos\\Lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|C:\\Users\\venup\\source\\repos\\Lab\\lab\\areacalculator.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|solutionrelative:lab\\areacalculator.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|C:\\Users\\venup\\source\\repos\\Lab\\lab\\areaservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|solutionrelative:lab\\areaservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|C:\\Users\\venup\\source\\repos\\Lab\\lab\\outputcachedemo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|solutionrelative:lab\\outputcachedemo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|c:\\users\\venup\\source\\repos\\lab\\lab\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|solutionrelative:lab\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|C:\\Users\\venup\\source\\repos\\Lab\\lab\\user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|solutionrelative:lab\\user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|C:\\Users\\venup\\source\\repos\\Lab\\lab\\user.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|solutionrelative:lab\\user.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|C:\\Users\\venup\\source\\repos\\Lab\\lab\\chat.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|solutionrelative:lab\\chat.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|C:\\Users\\venup\\source\\repos\\Lab\\lab\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|solutionrelative:lab\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|C:\\Users\\venup\\source\\repos\\Lab\\lab\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|solutionrelative:lab\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|C:\\Users\\venup\\source\\repos\\Lab\\lab\\welcome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|solutionrelative:lab\\welcome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|C:\\Users\\venup\\source\\repos\\Lab\\lab\\admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|solutionrelative:lab\\admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|C:\\Users\\venup\\source\\repos\\Lab\\lab\\welcome.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|solutionrelative:lab\\welcome.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|C:\\Users\\venup\\source\\repos\\Lab\\lab\\areacalculator.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|solutionrelative:lab\\areacalculator.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|C:\\Users\\venup\\source\\repos\\Lab\\lab\\areaservice.asmx||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}",
+      "RelativeMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|solutionrelative:lab\\areaservice.asmx||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|C:\\Users\\venup\\source\\repos\\Lab\\lab\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3694B014-8178-455C-ACDB-62EBB9BE3837}|Lab\\Lab.csproj|solutionrelative:lab\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Admin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Admin.aspx.cs",
+              "RelativeDocumentMoniker": "Lab\\Admin.aspx.cs",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Admin.aspx.cs",
+              "RelativeToolTip": "Lab\\Admin.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T10:17:05.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Admin.aspx",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Admin.aspx",
+              "RelativeDocumentMoniker": "Lab\\Admin.aspx",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Admin.aspx",
+              "RelativeToolTip": "Lab\\Admin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-23T10:16:48.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\User.aspx.cs",
+              "RelativeDocumentMoniker": "Lab\\User.aspx.cs",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\User.aspx.cs",
+              "RelativeToolTip": "Lab\\User.aspx.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T10:16:12.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.aspx",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\User.aspx",
+              "RelativeDocumentMoniker": "Lab\\User.aspx",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\User.aspx",
+              "RelativeToolTip": "Lab\\User.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-23T10:15:51.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OutputCacheDemo.aspx",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\OutputCacheDemo.aspx",
+              "RelativeDocumentMoniker": "Lab\\OutputCacheDemo.aspx",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\OutputCacheDemo.aspx",
+              "RelativeToolTip": "Lab\\OutputCacheDemo.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-22T05:32:26.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AreaService.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\AreaService.asmx.cs",
+              "RelativeDocumentMoniker": "Lab\\AreaService.asmx.cs",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\AreaService.asmx.cs",
+              "RelativeToolTip": "Lab\\AreaService.asmx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T06:29:42.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AreaCalculator.aspx",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\AreaCalculator.aspx",
+              "RelativeDocumentMoniker": "Lab\\AreaCalculator.aspx",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\AreaCalculator.aspx",
+              "RelativeToolTip": "Lab\\AreaCalculator.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-22T06:28:31.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Login.aspx",
+              "RelativeDocumentMoniker": "Lab\\Login.aspx",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Login.aspx",
+              "RelativeToolTip": "Lab\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-23T10:37:05.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Lab\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Login.aspx.cs",
+              "RelativeToolTip": "Lab\\Login.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T10:38:25.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Welcome.aspx",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Welcome.aspx",
+              "RelativeDocumentMoniker": "Lab\\Welcome.aspx",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Welcome.aspx",
+              "RelativeToolTip": "Lab\\Welcome.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-23T10:38:55.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Chat.aspx",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Chat.aspx",
+              "RelativeDocumentMoniker": "Lab\\Chat.aspx",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Chat.aspx",
+              "RelativeToolTip": "Lab\\Chat.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-28T12:35:29.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Welcome.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Welcome.aspx.cs",
+              "RelativeDocumentMoniker": "Lab\\Welcome.aspx.cs",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Welcome.aspx.cs",
+              "RelativeToolTip": "Lab\\Welcome.aspx.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwC4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T10:39:15.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Web.config",
+              "RelativeDocumentMoniker": "Lab\\Web.config",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\Web.config",
+              "RelativeToolTip": "Lab\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-22T06:36:37.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AreaService.asmx",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\AreaService.asmx",
+              "RelativeDocumentMoniker": "Lab\\AreaService.asmx",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\AreaService.asmx",
+              "RelativeToolTip": "Lab\\AreaService.asmx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003504|",
+              "WhenOpened": "2025-09-22T06:30:17.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AreaCalculator.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\AreaCalculator.aspx.cs",
+              "RelativeDocumentMoniker": "Lab\\AreaCalculator.aspx.cs",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Lab\\Lab\\AreaCalculator.aspx.cs",
+              "RelativeToolTip": "Lab\\AreaCalculator.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T06:28:54.286Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

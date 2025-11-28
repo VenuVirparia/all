@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\venup\\source\\repos\\Database1_CRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6529A7E3-0ABA-47FB-8DD0-501C307EA273}|Database1_CRUD\\Database1_CRUD.csproj|c:\\users\\venup\\source\\repos\\database1_crud\\database1_crud\\crud_ds.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6529A7E3-0ABA-47FB-8DD0-501C307EA273}|Database1_CRUD\\Database1_CRUD.csproj|solutionrelative:database1_crud\\crud_ds.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6529A7E3-0ABA-47FB-8DD0-501C307EA273}|Database1_CRUD\\Database1_CRUD.csproj|C:\\Users\\venup\\source\\repos\\Database1_CRUD\\database1_crud\\crud_ado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6529A7E3-0ABA-47FB-8DD0-501C307EA273}|Database1_CRUD\\Database1_CRUD.csproj|solutionrelative:database1_crud\\crud_ado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6529A7E3-0ABA-47FB-8DD0-501C307EA273}|Database1_CRUD\\Database1_CRUD.csproj|c:\\users\\venup\\source\\repos\\database1_crud\\database1_crud\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6529A7E3-0ABA-47FB-8DD0-501C307EA273}|Database1_CRUD\\Database1_CRUD.csproj|solutionrelative:database1_crud\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 20,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CRUD_DS.aspx",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Database1_CRUD\\Database1_CRUD\\CRUD_DS.aspx",
+              "RelativeDocumentMoniker": "Database1_CRUD\\CRUD_DS.aspx",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Database1_CRUD\\Database1_CRUD\\CRUD_DS.aspx",
+              "RelativeToolTip": "Database1_CRUD\\CRUD_DS.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-28T13:07:36.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Database1_CRUD\\Database1_CRUD\\Login.aspx",
+              "RelativeDocumentMoniker": "Database1_CRUD\\Login.aspx",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Database1_CRUD\\Database1_CRUD\\Login.aspx",
+              "RelativeToolTip": "Database1_CRUD\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-28T11:52:45.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CRUD_ADO.aspx",
+              "DocumentMoniker": "C:\\Users\\venup\\source\\repos\\Database1_CRUD\\Database1_CRUD\\CRUD_ADO.aspx",
+              "RelativeDocumentMoniker": "Database1_CRUD\\CRUD_ADO.aspx",
+              "ToolTip": "C:\\Users\\venup\\source\\repos\\Database1_CRUD\\Database1_CRUD\\CRUD_ADO.aspx",
+              "RelativeToolTip": "Database1_CRUD\\CRUD_ADO.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-28T11:50:06.322Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
